@@ -127,17 +127,17 @@ git clone https://github.com/chinmayjainnnn/Finetuning-GPT-and-Knowledge-Distill
 To generate text using the base GPT-2 model:
 
 ```bash
-python run.py gen <Your5DigitSR>
+python run.py gen 12345
 ```
 
-Replace `<Your5DigitSR>` with your 5-digit SR number.
+
 
 ### LoRA Fine-Tuning
 
 To fine-tune the GPT-2 model using LoRA on the CoLA dataset:
 
 ```bash
-python run.py LoRA <Your5DigitSR>
+python run.py LoRA 12345
 ```
 
 #### Hyperparameters
@@ -152,7 +152,7 @@ python run.py LoRA <Your5DigitSR>
 To perform knowledge distillation from the LoRA fine-tuned GPT-2 model to the DistilRNN model:
 
 ```bash
-python run.py distil <Your5DigitSR>
+python run.py distil 12345
 ```
 
 *Ensure that the LoRA fine-tuned model is saved and accessible at the specified `model_path`.*
