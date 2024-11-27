@@ -167,7 +167,7 @@ python run.py distil <Your5DigitSR>
 
 #### Loss and Accuracy Plot
 
-![LoRA Training Plot](Finetuning-GPT-and-Knowledge-Distillation/plots/Distil-accuracy.png)
+![LoRA Training Plot](plots/LoRA-accuracy.png)
 
 *The plot shows the training and validation loss decreasing over epochs, with corresponding increases in accuracy.*
 
@@ -179,7 +179,7 @@ python run.py distil <Your5DigitSR>
 
 #### Loss and Accuracy Plot
 
-![DistilRNN Training Plot](plots/distilrnn_training_plot.png)
+![DistilRNN Training Plot](plots/Distil-accuracy.png)
 
 *The plot indicates that the student model effectively learns from the teacher, though with some loss in accuracy due to reduced capacity.*
 
