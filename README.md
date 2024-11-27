@@ -88,7 +88,7 @@ LoRA reduces the number of trainable parameters by injecting trainable low-rank 
   - **Initialization:**
     - **\( U \):** Initialized using Kaiming Uniform initialization.
     - **\( V \):** Initialized to zeros.
-  - **Scaling Factor (\( \alpha \)):** Controls the magnitude of the decomposition, calculated as \( \text{alpha} / \text{rank} \).
+  - **Scaling Factor** : Controls the magnitude of the decomposition, calculated as \( {alpha} / {rank} \).
 
 ### Problem 2: Knowledge Distillation
 
