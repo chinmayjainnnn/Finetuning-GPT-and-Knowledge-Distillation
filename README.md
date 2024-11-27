@@ -115,14 +115,7 @@ A simple Recurrent Neural Network (RNN) model used as the student in the distill
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/e0270-assignment2.git
-cd e0270-assignment2
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
+git clone https://github.com/chinmayjainnnn/Finetuning-GPT-and-Knowledge-Distillation
 ```
 
 *Note: Ensure that PyTorch is installed with CUDA support if using a GPU.*
